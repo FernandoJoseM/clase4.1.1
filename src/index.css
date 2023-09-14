@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-form{
+    display: flex;
+}
+form{
+    width: 100%;
+    padding: 0 1rem;
+    border: 1px solid black;
+}
+input, .value-element{
+    height: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(128, 128, 128,0.7);
+    width: 100%;
+    padding: 1rem 1rem;
+}
+legend{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    font-weight: 900;
+    
+}
+button{
+    width: 5rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+    border-radius: 0.7rem;
+    border: none;
+    margin: 1rem 0;
+    cursor: pointer;
+}
